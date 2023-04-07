@@ -1,0 +1,4 @@
+@keyframes InfoMessage-hide {
+    from { display: block; }
+    to { opacity: 0;}
+}

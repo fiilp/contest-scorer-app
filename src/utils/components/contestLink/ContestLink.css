@@ -1,0 +1,29 @@
+.ContestLink {
+    display: flex;
+    border: 1px solid black;
+    background-color: #F1FAEE;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa; 
+    padding: 5px; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ContestLink img {
+    flex: 2;
+    height: 64px;
+}
+
+.ContestLink a {
+    color: #1D3557;
+    font-weight: bold;
+}
+.ContestLink > div {
+    overflow: hidden;
+    white-space: nowrap;
+    flex: 8;
+    text-overflow: ellipsis;
+}
+.ContestLink > *  {
+    padding: 10px;
+}

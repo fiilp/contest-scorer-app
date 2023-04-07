@@ -1,0 +1,5 @@
+.Select select {
+    background-color: #F1FAEE;
+    font-size: calc(10px + 2vmin);
+    padding: 5px;
+}

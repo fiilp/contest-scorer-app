@@ -1,0 +1,11 @@
+.Contest .Contestant {
+    margin: 15px;
+}
+
+.Contest a {
+    color: #1D3557;
+}
+
+.Contest > a:nth-of-type(n + 2) {
+    text-decoration: none;
+}
