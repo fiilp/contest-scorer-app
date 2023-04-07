@@ -8,7 +8,25 @@ import "./Contest.css";
 
 const mock = [
   { id: "1", name: "Filip Garamvölgyi", performance: "Bingo Bongo", score: 5 },
-  { id: "2", name: "Hanna Ta", performance: "Lik väl", score: 8 },
+  { id: "2", name: "Hanna Ta", performance: "Slayy", score: 8 },
+  {
+    id: "3",
+    name: "Agnes Garamvölgyi",
+    performance: "TNT, nu jävlar blir det åka av",
+    score: 7,
+  },
+  {
+    id: "4",
+    name: "Adele",
+    performance: "Hallå",
+    score: 2,
+  },
+  {
+    id: "5",
+    name: "Kristoffer",
+    performance: "Trasig telefon",
+    score: 2,
+  },
 ] as IContestantProps[];
 
 function ContestPage() {
