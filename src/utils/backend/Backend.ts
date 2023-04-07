@@ -1,13 +1,14 @@
+import { BACKEND_URL } from "../../configs";
+
 export interface IBackend {
   post<T>(url: string, data: T): Promise<Response>;
 }
 
 function post<T>(url: string, data: T): Promise<Response> {
-  return fetch("http://localhost:8089" + url, {
+  return fetch(BACKEND_URL + url, {
     method: "POST",
-    mode: "no-cors",
+    //mode: "no-cors",
     cache: "no-cache",
-    //credentials: "same-origin", // include, *same-origin, omit
     headers: {
       "Content-Type": "application/json",
     },
