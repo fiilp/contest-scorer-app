@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/contest-scorer/static/css/main.eca8465d.css",
+    "main.js": "/contest-scorer/static/js/main.07ac504c.js",
+    "static/media/trophy.svg": "/contest-scorer/static/media/trophy.612ac2b26edb5ce7fdb620048bfda9b5.svg",
+    "index.html": "/contest-scorer/index.html",
+    "main.eca8465d.css.map": "/contest-scorer/static/css/main.eca8465d.css.map",
+    "main.07ac504c.js.map": "/contest-scorer/static/js/main.07ac504c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eca8465d.css",
+    "static/js/main.07ac504c.js"
+  ]
+}
