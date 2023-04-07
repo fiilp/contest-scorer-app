@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/contest-scorer-app/static/css/main.eca8465d.css",
-    "main.js": "/contest-scorer-app/static/js/main.1c8965ab.js",
+    "main.js": "/contest-scorer-app/static/js/main.202c43d4.js",
     "static/media/trophy.svg": "/contest-scorer-app/static/media/trophy.612ac2b26edb5ce7fdb620048bfda9b5.svg",
     "index.html": "/contest-scorer-app/index.html",
     "main.eca8465d.css.map": "/contest-scorer-app/static/css/main.eca8465d.css.map",
-    "main.1c8965ab.js.map": "/contest-scorer-app/static/js/main.1c8965ab.js.map"
+    "main.202c43d4.js.map": "/contest-scorer-app/static/js/main.202c43d4.js.map"
   },
   "entrypoints": [
     "static/css/main.eca8465d.css",
-    "static/js/main.1c8965ab.js"
+    "static/js/main.202c43d4.js"
   ]
 }
