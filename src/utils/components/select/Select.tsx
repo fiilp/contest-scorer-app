@@ -1,6 +1,5 @@
 import React from "react";
 import "./Select.css";
-import { selectedOptionFirst } from "./action";
 
 interface ISelectProps {
   selected: number;
@@ -14,7 +13,6 @@ function Select({ selected, onChangeHandle, options }: ISelectProps) {
     function (e: React.FormEvent<HTMLSelectElement>, i: number) {
       return;
     };
-  const orderedOptions = selectedOptionFirst(selected, options);
   return (
     <div className="Select">
       <select

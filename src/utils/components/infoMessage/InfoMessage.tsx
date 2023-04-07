@@ -1,5 +1,3 @@
-import { CSSProperties } from "react";
-import { useEffect, useRef } from "react";
 import "./InfoMessage.css";
 
 export type MessageLevel = "success" | "warning" | "error";

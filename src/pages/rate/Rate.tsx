@@ -25,7 +25,7 @@ function RatePage() {
   useEffect(() => {
     fetchContestant(contestId || "", contestantId || "").then(setContestant);
     return;
-  }, []);
+  }, [contestId, contestantId]);
   return (
     <div className="Rate">
       <Link to="/">Back</Link>

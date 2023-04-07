@@ -3,17 +3,14 @@ import { useNavigate } from "react-router-dom";
 function AuthRoute({ children }: { children: JSX.Element }) {
   const navigate = useNavigate();
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const checkUserToken = () => {
+  useEffect(() => {
     const userToken = localStorage.getItem("user-token");
     if (!userToken || userToken === "undefined") {
       setIsLoggedIn(false);
       return navigate("/login");
     }
     setIsLoggedIn(true);
-  };
-  useEffect(() => {
-    checkUserToken();
-  }, [isLoggedIn]);
+  }, [isLoggedIn, navigate]);
   return <React.Fragment>{isLoggedIn ? children : null}</React.Fragment>;
 }
 export default AuthRoute;
